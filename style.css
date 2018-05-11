@@ -4,12 +4,13 @@
 }
 body {
 	background-color: white;
-	font-family: "Helvetica", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
 h1 {
 	text-transform: uppercase;
 	font-size: 40px;
+	font-weight: 300;
 }
 h2 {
 	text-transform: uppercase;
@@ -27,6 +28,25 @@ section {
 .container-large {
 	max-width: 960px;
 	margin: 0 auto;
+}
+.button {
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	padding: 12px 15px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px;
+	transition: all 0.3s;
+}
+.button:hover {
+	background-color: darkblue;
+}
+.button-green {
+	background-color: green;
+}
+.button-green:hover {
+	background-color: darkgreen;
 }
 
 /* Header */
