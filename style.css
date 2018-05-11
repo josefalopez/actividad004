@@ -24,10 +24,43 @@ section {
 	max-width: 580px;
 	margin: 0 auto;
 }
+.container-large {
+	max-width: 960px;
+	margin: 0 auto;
+}
 
 /* Header */
 header {
 	color: white;
 	background-color: black;
 	text-align: center;
+	padding: 100px 0;
+}
+
+/* Navegación */
+nav {
+	background-color: red;
+}
+nav ul {
+	list-style: none;
+	float: right;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 125px;
+}
+nav ul li {
+	display: inline-block;
+	padding: 10px;
+}
+nav li a {
+	color: white;
+	text-decoration: none;
+	opacity: 0.5;
+	transition: opacity 0.3s;
+}
+nav li a:hover {
+	opacity: 1;
 }
